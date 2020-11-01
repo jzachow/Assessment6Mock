@@ -1,0 +1,18 @@
+﻿@model Assessment6Mock.Model.Employee
+
+<table class="table">
+    <thead>
+        <tr>
+            <td>Employee</td>
+            <td>Eligible for Retirement</td>
+            <td>Benefits</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.FirstName</td>
+            <td>@ViewBag.CanRetire</td>
+            <td>@ViewBag.Benefits</td>
+        </tr>
+    </tbody>
+</table>
